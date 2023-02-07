@@ -1,0 +1,440 @@
+/*body{
+			margin: 0;
+			background: whitesmoke;
+			
+		}
+		.firstdiv{
+			position: inherit;
+			height: auto;
+			;
+		
+		}
+		.feedback{
+			display:none;
+			width:700px;margin-left:50px
+		}
+		.seconddiv{
+			position: inherit;
+			height: auto;
+		}
+		.list .nav .nav-item {
+			margin-top: 5px;
+		}
+		.list .nav .nav-item .nav-link{
+			color: white;
+			text-transform: capitalize;
+		}
+		.list .nav #dashboard{
+			background: rgba(0, 0, 0, 0.3);
+			border-left: 2px solid orange;
+			
+		}
+		.list .nav .nav-item .nav-link:hover{
+			background: rgba(0, 0, 0, 0.3);
+			border-left: 2px solid orange;
+		}
+		.action .users.container.d-flex{
+			display: block;
+			background: red;
+			visibility: hidden;
+		}
+		.btn{
+			margin-top:-78px;
+			margin-left: 60px;
+			border: none;
+			box-shadow: unset;
+			display: none;
+			position: absolute;
+
+		}
+		.btn:focus{
+			box-shadow: unset;
+		}
+		.seconddiv header .lower .row .col-5 h2{
+			font-size:25px;
+			font-weight:600
+		}
+		.seconddiv header .lower .row .col-7 {
+			margin-left:55%;margin-top: -35px;
+		}
+		.seconddiv header .lower .row .col-7 .d-flex{
+            margin-left:30%;
+		}
+		.seconddiv header .lower .row .col-7 .d-flex h3{
+			font-size: 20px;
+		}
+		.seconddiv header .lower .row .col-7 .d-flex h3:nth-child(2){
+			margin-left:30px
+        }
+		
+		.search{
+			margin-top: 2px;
+		}
+		.dashboardinfo{
+			margin-top: 100px;
+		}
+		.dashboardinfo .row{
+			margin-left: 50px;
+		}
+		.dashboardinfo .row div{
+			height: 200px;
+		}
+		.dashboardinfo .row div:nth-child(2){
+			color: white;
+			margin-left: 20px;
+		}
+		.feedback{
+			margin-top: 50px;
+		}
+		footer{
+			position: absolute;
+			margin-left: 0;
+			right: 0;
+			bottom: 0;
+		}
+		footer .rowfooter{
+			display: flex;
+		}
+
+		footer  h3{
+			color: white;
+			font-size: 15px;
+			
+		}
+		footer h3:nth-child(2){
+			margin-left: 50%;
+			color: orange;
+		}
+		footer  h3:before{
+		    content: "/";
+		    padding: 20px;
+			
+		 }
+		 .unfunction{
+		margin-left: 20px;
+		 }
+		 .function{
+		 	display: none;
+		 	margin-left: 90%;
+		 }
+		
+		.info{
+			margin-top: 80px;
+			margin-bottom: 80px;
+		}
+		.borrow{
+			display: none;
+		}
+		.borrow .row div:nth-child(2) .card-body iframe{
+					width: 100%;
+					border: none;
+					height: 600px;
+		}
+		.contact{
+			display: none;
+		}
+		.contact .row div:nth-child(2) iframe{
+         		width: 100%;
+         		border: none;
+         		height: 600px;
+         		margin-left: -30px;
+         	}
+        .resetdiv .row div:nth-child(2) iframe{
+      		width: 100%;
+      		border: none;
+      		height: 600px;
+      		margin-left: -30px;
+      	}
+		@media screen and (max-width: 990px){
+			.info{
+				margin-bottom: 90px;
+			}
+			.firstdiv{
+				display: none;
+				position: absolute;
+				z-index: 1300;
+				top: 7%;
+			}
+			.helpdiv{
+				z-index: 1300;
+			}
+			footer{
+				z-index: 100;
+				display: ;
+			}
+			.seconddiv{
+				height: 100vh;
+			}
+			.unfunction{
+				display: none;
+			}
+			.function{
+				display: block;
+			}
+			.seconddiv header .lower .row .col-7 {
+			margin-left:47%;
+			margin-top: -35px;
+		}
+		.dashboardinfo .row div:nth-child(2){
+			color: white;
+			margin-left: 0px;
+			margin-top: 70px;
+		}
+		.borrow .row div:nth-child(2) .card-body iframe{
+		margin-top: -100px;
+			width: 80%;
+         		border: none;
+         		height: 600px;
+         		margin-top: -100px;
+         		margin-left: 30px;			
+		}
+		.contact .row div:nth-child(2) iframe{
+         		width: 60%;
+         		border: none;
+         		height: 600px;
+         		margin-top: -100px;
+         		margin-left: 30px;
+         }
+
+   .resetdiv .row div:nth-child(2) iframe{
+         
+      		width: 80%;
+      		border: none;
+      		height: 600px;
+      		margin-left: 30px;
+      		margin-top: -90px;
+     }	
+	 }
+	 @media screen and (max-width: 742px){
+	 		.seconddiv header .lower .row .col-5 h2 {
+			
+      font-size: 20px;
+		}
+	 	.seconddiv header .lower .row .col-7 {
+			margin-left:45%;
+			margin-top: -30px;
+      font-size: 15px;
+		}
+		
+		.seconddiv header .lower .row .col-7 .d-flex h3{
+      font-size: 15px;
+      
+		}
+		.seconddiv header .lower .row .col-7 .d-flex h3:nth-child(2){
+			margin-left:30px
+    }
+	 }
+	 	 @media screen and (max-width: 676px){
+	 	.seconddiv header .lower .row .col-5 h2{
+			font-size:18px;
+			font-weight:600
+		}
+		
+		footer .rowfooter h3:nth-child(1){
+    font-size: 10px;
+		}
+	 }
+	 
+	 @media screen and (max-width: 578px){
+	 	.borrow .row div:nth-child(2) .card-body iframe{
+		margin-top: -100px;
+			width: 90%;
+         		border: none;
+         		height: 600px;
+         		margin-top: -100px;
+         		margin-left: 30px;			
+		}
+		
+	 	.contact .row div:nth-child(2) iframe{
+         		width: 90%;
+         		border: none;
+         		height: 600px;
+         		margin-top: -100px;
+         		margin-left: 30px;
+         	}
+	 	 .resetdiv .row div:nth-child(2) iframe{
+      		width: 90%;
+      		border: none;
+      		height: 600px;
+      		margin-left: 30px;
+      		margin-top: -90px;
+      	}	
+	 }
+
+	 @media screen and (max-width: 564px){
+	 		.seconddiv header .lower .row .col-7 {
+			margin-left:40%;
+			margin-top: -20px;
+      
+		}
+		.seconddiv header .lower .row .col-7  h3{
+			width: 100%;
+			font-size: 10px;
+		}
+		.seconddiv header .lower .row .col-7  h3:nth-child(1){
+			font-size:13px;
+		}
+		.seconddiv header .lower .row .col-7  h3:nth-child(2){
+			width: 110%;
+			font-size:13px;
+		}
+	 }
+	 @media screen and (max-width: 542px){
+	 	.borrow .row div:nth-child(2) .card-body iframe{
+          margin-top: -55px;
+	 	}
+	 		.seconddiv header .lower .row .col-7  h3{
+			width: 100%;
+			font-size: 10px;
+		}
+		.seconddiv header .lower .row .col-7  h3:nth-child(1){
+			font-size:10px;
+		}
+		.seconddiv header .lower .row .col-7  h3:nth-child(2){
+			width: 110%;
+			font-size:10px;
+		}
+		.seconddiv header .lower .row .col-5 h2{
+			font-size:15px;
+			font-weight:600
+		}
+		footer .rowfooter{
+
+     display: block;
+		}
+		
+		footer .rowfooter h3:nth-child(1){
+				font-size: 10px;
+				width: 100%;
+			}
+		
+
+	 }
+	 @media screen and (max-width: 452px){
+	 	.seconddiv header .lower .row .col-5 h2{
+			font-size:13px;
+			font-weight:600
+		}
+		footer .rowfooter{
+
+      display: block;
+		}
+		
+		footer .rowfooter h3:nth-child(1){
+				font-size: 10px;
+				width: 100%;
+			}
+	  .resetdiv .row div:nth-child(2) iframe{
+      		width: 100%;
+      		border: none;
+      		height: 600px;
+      		margin-left: 0px;
+      		margin-top: -90px;
+      	}
+      	.contact .row div:nth-child(2) iframe{
+         		width: 100%;
+         		border: none;
+         		height: 600px;
+         		margin-top: -100px;
+         		margin-left: 0px;
+         	}
+         		.borrow .row div:nth-child(2) .card-body iframe{
+		margin-top: -100px;
+						
+		}	
+	 }
+	 @media screen and (max-width: 432px){
+	 	.seconddiv header .lower .row .col-7  h3:nth-child(1){
+			font-size:8px;
+		}
+		.seconddiv header .lower .row .col-7  h3:nth-child(2){
+			width: 110%;
+			font-size:8px;
+		}
+		.seconddiv header .lower .row .col-5 h2{
+			font-size:10px;
+			font-weight:600
+		}
+	 }
+	  @media screen and (max-width: 384px){
+	 	.borrow .row div:nth-child(2) .card-body iframe{
+          margin-top: -25px;
+         
+	 	}
+	 	.seconddiv header .lower .row .col-7{
+	 		margin-top: -20px;
+	 	}
+	 	.seconddiv header .lower .row .col-7  h3:nth-child(1){
+			font-size:7px;
+		}
+		.seconddiv header .lower .row .col-7  h3:nth-child(2){
+		
+			font-size:7px;
+
+		}
+		.data-container{
+			font-size: 10px;
+		}
+	 }
+	 @media screen and (max-width: 360px){
+	 	.seconddiv header .lower .row .col-5 h2{
+	 		font-size: 8px;
+	 	}
+	 		.seconddiv header .lower .row .col-7{
+	 		margin-top: -15px;
+	 	}
+	 	.seconddiv header .lower .row .col-7  h3:nth-child(1){
+			font-size:5px;
+		}
+		.seconddiv header .lower .row .col-7  h3:nth-child(2){
+		
+			font-size:5px;
+
+	 }
+	  @media screen and (max-width: 320px){
+	 	.borrow .row div:nth-child(2) .card-body iframe{
+          margin-top: 25px;
+          width: 100%;
+	 	}
+	 	.seconddiv header .lower .row .col-5  h2{
+			font-size:6px;
+			
+		}
+		.seconddiv header .lower .row .col-7{
+			margin-top: -12px;
+			
+		}
+		 	.seconddiv header .lower .row .col-7  h3:nth-child(1){
+			font-size: 4px;
+		}
+		.seconddiv header .lower .row .col-7  h3:nth-child(2){
+		
+		font-size: 4px;
+
+	 }
+	 }
+	   @media screen and (max-width: 296px){
+	 	.borrow .row div:nth-child(2) .card-body iframe{
+          margin-top: 65px;
+	 	}
+	 		.seconddiv header .lower .row .col-7  h3:nth-child(1){
+			font-size: 3px;
+		}
+		.seconddiv header .lower .row .col-7  h3:nth-child(2){
+		
+		font-size: 3px;
+
+	 }
+	 	footer .rowfooter h3{
+	 		font-size: 10px;
+	 	}
+	 }
+	 .overflow{
+	 	overflow-x: hidden;
+	 }*/
+
+	 @media screen and (max-width: 360px){
+	 	body{
+	 		background-color: red
+	 	}
+	 }

@@ -1,0 +1,237 @@
+body{
+			overflow-x: ;
+			background: whitesmoke;
+		}
+		header{
+			opacity: 500;
+		}
+		.row{
+			position: relative;
+		}
+		.leftdiv{
+			position: inherit;
+			height: 170vh;
+		}
+		.leftdiv header{
+			background: orange;
+			padding: 10px;
+			opacity: 0.4;
+		}
+		.leftdiv header h1{
+			font-size: 13px;
+			text-transform: capitalize;
+			text-decoration: underline;
+			color: white;
+			opacity: 1;
+			font-weight: bolder;
+			
+		}
+		.rightdiv header{
+			background: orange;
+			padding: 14px;
+		}
+		.rightdiv header span div{
+			width: 20px;
+			height: 3px;
+			margin-top: 3px;
+			background: white;
+		}
+		.rightdiv header h1{
+			font-size: 15px;
+			text-transform: capitalize;
+			text-decoration: underline;
+			color: white;
+			opacity: 1;
+		}
+		.list .nav .nav-item {
+			margin-top: 10px;
+		}
+		.list .nav .nav-item .nav-link{
+			color: white;
+			text-transform: capitalize;
+		}
+		.list .nav .nav-item .dashbord{
+			background: rgba(0, 0, 0, 0.3);
+			border-left: 2px solid orange;	
+		}
+		.list .nav .nav-item .nav-link:hover{
+			background: rgba(0, 0, 0, 0.3);
+			border-left: 2px solid orange;
+		}
+		
+		.heading{
+			margin-top: 30px;
+			text-transform: capitalize;
+			border-bottom: 2px solid rgba(0, 0, 0, 0.6);
+			display: flex;
+		}
+		.heading h1{
+			font-size: 20px;
+		}
+		.heading h1:nth-child(2){
+			margin-left: 50%;
+		}
+		.heading h1:nth-child(2):after{
+			content: ">";
+			padding:5px;
+		}
+		.heading h1:nth-child(3){
+			margin-left: 20px;
+		}
+		.divs{
+		margin-top:60px;
+		margin-left: 20px;
+		display: flex;
+	}
+	.divs .members,.items{
+		width: 400px;
+		height: 200px;
+		margin-left:25px;
+	}
+	.divs .members h1{
+		margin-top: 30px;
+
+	}
+	.divs .members h1 a{
+		text-decoration: none;
+	}
+	.divs .items{
+		margin-left: 30px;
+	}
+	.divs .items h1{
+		margin-top: 30px;
+	}
+	.divs .items h1 a{
+		text-decoration: none;
+	}
+	.divs .issued h1{
+		margin-top: 30px;
+
+	}
+	.divs .issued h1 a{
+		text-decoration: none;
+	}
+		.content .row{
+			margin-top: 30px;
+			margin-left: 10px;
+		}
+		.content .row .col-2{
+		
+			background: red;
+			margin-left: 30px;
+			padding: 30px;
+			color: white;
+			text-transform: capitalize;
+			
+		}
+		.action .users.container.d-flex{
+			display: block;
+			background: red;
+			visibility: hidden;
+		}
+		@media screen and (max-width: 1194px){
+			
+			.heading h1{
+			font-size: 15px;
+			margin-left: 10px;
+		}
+		.heading h1:nth-child(2){
+			margin-left: 50%;
+		}
+		.heading h1:nth-child(2):after{
+			content: ">";
+			padding:5px;
+		}
+		.heading h1:nth-child(3){
+			margin-left: 20px;
+		}
+		}
+		@media screen and (max-width: 982px){
+				.heading h1{
+			font-size: 13px;
+			margin-left: 10px;
+		}
+		.heading h1:nth-child(2){
+			margin-left: 50%;
+		}
+		.heading h1:nth-child(2):after{
+			content: ">";
+			padding:5px;
+		}
+		.heading h1:nth-child(3){
+			margin-left: 20px;
+		}
+		.divs{
+		margin-top:60px;
+		margin-left: 20px;
+		display: block;
+	}
+	.divs .members,.items{
+		width: 500px;
+		height: 200px;
+		margin-left:25px;
+	}
+	.divs .items{
+		margin-top: 50px;
+		}
+	}
+	@media screen and (max-width: 880px){
+		.heading h1:nth-child(1){
+			font-size: 11px;
+		}
+	}
+	@media screen and (max-width: 838px){
+		.heading h1{
+			font-size: 10px;
+		}
+	}
+	@media screen and (max-width: 756px){
+		.heading h1{
+			font-size: 9px;
+		}
+		.heading h1:nth-child(2),.heading h1:nth-child(2){
+			margin-left: 220px;
+		}
+		.divs .members,.items{
+		width: 450px;
+		height: 200px;
+		margin-left:25px;
+	}
+	}
+	@media screen and (max-width: 676px){
+		.divs .members,.items{
+		width: 400px;
+		height: 200px;
+		margin-left:25px;
+	}
+		.heading h1:nth-child(2),.heading h1:nth-child(2){
+			margin-left: 180px;
+		}
+	
+	}
+	@media screen and (max-width: 654px){
+		.divs .members,.items{
+		width: 400px;
+		height: 200px;
+		margin-left:25px;
+	}
+	.heading h1{
+			font-size: 7px;
+		}
+	}
+	@media screen and (max-width: 590px){
+		.divs .members,.items{
+		width: 350px;
+		height: 200px;
+		margin-left:25px;
+	}
+	.heading h1:nth-child(2),.heading h1:nth-child(2){
+			margin-left: 150px;
+		}
+	}
+	@media screen and (max-width: 570px){
+		
+		.heading h1{
+
+		}
+	}
